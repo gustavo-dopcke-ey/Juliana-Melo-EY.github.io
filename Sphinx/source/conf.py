@@ -21,7 +21,7 @@ release = '1'
 
 extensions = [
     #[...]
-    "sphinxcontrib-video", 'sphinx.ext.autodoc'
+    "sphinxcontrib.video", 'sphinx.ext.autodoc'
 ]
 
 templates_path = ['_templates']
