@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="yes" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Como Documentar Arquivos de Texto? &mdash; Sphinx 1 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/sphinx_highlight.js"></script>
+        <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Formas de Documentar Código" href="como%20documentar%20c%C3%B3digo.html" />
+    <link rel="prev" title="Entendendo a Estrutura" href="entendendo%20a%20estrutura.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            Sphinx
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Afinal, o que é o Sphinx?:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="afinal%20o%20que%20%C3%A9%20o%20sphinx.html">Afinal, o que é Sphinx?</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Como utilizar o Sphinx?:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="modo%20de%20utiliza%C3%A7%C3%A3o.html">Guia de Instalação</a></li>
+<li class="toctree-l1"><a class="reference internal" href="entendendo%20a%20estrutura.html">Entendendo a Estrutura</a></li>
+<li class="toctree-l1"><a class="reference internal" href="entendendo%20a%20estrutura.html#paginas-links-e-referencias">Páginas, Links e Referências</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Como Documentar Arquivos de Texto?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#imagens-e-videos">Imagens e Vídeos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#tabelas">Tabelas</a></li>
+<li class="toctree-l1"><a class="reference internal" href="como%20documentar%20c%C3%B3digo.html">Formas de Documentar Código</a></li>
+<li class="toctree-l1"><a class="reference internal" href="como%20documentar%20c%C3%B3digo.html#code-block">Code Block</a></li>
+<li class="toctree-l1"><a class="reference internal" href="como%20documentar%20c%C3%B3digo.html#geracao-automatica">Geração Automática</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Criando e disponibilizando a Documentação:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="como%20criar%20e%20disponibilizar%20o%20html.html">Como Criar e Disponibilizar o html</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Sphinx</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Como Documentar Arquivos de Texto?</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/como documentar aquivos de texto.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="como-documentar-arquivos-de-texto">
+<h1>Como Documentar Arquivos de Texto?<a class="headerlink" href="#como-documentar-arquivos-de-texto" title="Permalink to this heading"></a></h1>
+<p id="como-documentar-texto">Nessa página apresentamos os principais comandos necessários para documentar texto no Sphinx.</p>
+<section id="edicao-de-texto">
+<h2>Edição de texto<a class="headerlink" href="#edicao-de-texto" title="Permalink to this heading"></a></h2>
+<p>O arquivo.rst funciona como se fosse um bloco de notas, logo, para inserir texto basta colar ou escreve-lo no arquivo. Porém, além de inserir textos, também é possível formata-lo.</p>
+<p>A seguir, temos uma tabela com os principais comandos para formatação de texto, lembrando que uma explicação mais detalhada pode ser encontrada em <a class="reference external" href="https://docutils.sourceforge.io/docs/ref/rst/directives.html#image">https://docutils.sourceforge.io/docs/ref/rst/directives.html#image</a></p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Formato</p></th>
+<th class="head"><p>reStructuredText</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>Negrito</strong></p></td>
+<td><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>**Negrito**
+</pre></div>
+</div>
+</td>
+</tr>
+<tr class="row-odd"><td><p><em>Itálico</em></p></td>
+<td><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>*Itálico*
+</pre></div>
+</div>
+</td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">inline</span> <span class="pre">code</span></code></p></td>
+<td><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="sb">``</span>inline<span class="w"> </span>code<span class="sb">``</span>
+</pre></div>
+</div>
+</td>
+</tr>
+<tr class="row-odd"><td><p><sub>subscript</sub></p></td>
+<td><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>:sub:<span class="sb">`</span>subscript<span class="sb">`</span>
+</pre></div>
+</div>
+</td>
+</tr>
+<tr class="row-even"><td><p><sup>superscript</sup></p></td>
+<td><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sup:<span class="sb">`</span>superscript<span class="sb">`</span>
+</pre></div>
+</div>
+</td>
+</tr>
+<tr class="row-odd"><td><p><em>emphasis</em></p></td>
+<td><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>:emphasis:<span class="sb">`</span>emphasis<span class="sb">`</span>
+</pre></div>
+</div>
+</td>
+</tr>
+<tr class="row-even"><td><p><strong>strong</strong></p></td>
+<td><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>:strong:<span class="sb">`</span>strong<span class="sb">`</span>
+</pre></div>
+</div>
+</td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">literal</span></code></p></td>
+<td><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>:literal:<span class="sb">`</span>literal<span class="sb">`</span>
+</pre></div>
+</div>
+</td>
+</tr>
+<tr class="row-even"><td><p class="centered">
+<strong>teste</strong></p></td>
+<td><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>..<span class="w"> </span>centered::<span class="w"> </span>teste
+</pre></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="calculos-matematicos">
+<h2>Cálculos Matemáticos<a class="headerlink" href="#calculos-matematicos" title="Permalink to this heading"></a></h2>
+<p>Podemos escrever cálculos matemáticos de duas formas no Sphinx, uma usando o comando <code class="docutils literal notranslate"><span class="pre">:math:``</span></code> e outra usando <code class="docutils literal notranslate"><span class="pre">..math::</span></code>, segue exemplos:</p>
+<p><span class="math notranslate nohighlight">\(X_{0:5} = (X_0, X_1, X_2, X_3, X_4)\)</span></p>
+<p>Código:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>:math:`X_{0:5} = (X_0, X_1, X_2, X_3, X_4)`
+</pre></div>
+</div>
+<div class="math notranslate nohighlight" id="equation-referencia">
+<span class="eqno">(1)<a class="headerlink" href="#equation-referencia" title="Permalink to this equation"></a></span>\[\nabla^2 f =
+\frac{1}{r^2} \frac{\partial}{\partial r}
+\left( r^2 \frac{\partial f}{\partial r} \right) +
+\frac{1}{r^2 \sin \theta} \frac{\partial f}{\partial \theta}
+\left( \sin \theta \, \frac{\partial f}{\partial \theta} \right) +
+\frac{1}{r^2 \sin^2\theta} \frac{\partial^2 f}{\partial \phi^2}\]</div>
+<p>Para ver o código da equação acima, clique em <strong>View page source</strong> no canto superior direito da página.</p>
+<p>Também é possivel referenciar equações usando  <a class="reference internal" href="#equation-referencia">(1)</a> usando <code class="docutils literal notranslate"><span class="pre">:eq:</span></code>.</p>
+</section>
+<section id="download-de-links-e-arquivos">
+<h2>Download de Links e Arquivos<a class="headerlink" href="#download-de-links-e-arquivos" title="Permalink to this heading"></a></h2>
+<p>No Sphinx também é possível inserir links com arquivos para download, usando <code class="docutils literal notranslate"><span class="pre">:download:</span></code></p>
+<p><a class="reference download external" download="" href="https://source.unsplash.com/200x200/daily?cute+puppy"><code class="xref download docutils literal notranslate"><span class="pre">Link</span></code></a></p>
+</section>
+</section>
+<section id="imagens-e-videos">
+<h1>Imagens e Vídeos<a class="headerlink" href="#imagens-e-videos" title="Permalink to this heading"></a></h1>
+<p>Para inserir imagens, use:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">..</span> <span class="n">image</span><span class="p">::</span> <span class="n">imagem</span><span class="o">.</span><span class="n">png</span>
+    <span class="p">:</span><span class="n">height</span><span class="p">:</span> <span class="mi">100</span> <span class="n">px</span>
+    <span class="p">:</span><span class="n">width</span><span class="p">:</span> <span class="mi">200</span> <span class="n">px</span>
+    <span class="p">:</span><span class="n">scale</span><span class="p">:</span> <span class="mi">400</span> <span class="o">%</span>
+    <span class="p">:</span><span class="n">align</span><span class="p">:</span> <span class="n">center</span>
+
+<span class="o">|</span>
+</pre></div>
+</div>
+<p>Agora para inserir vídeos, use:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">..</span> <span class="n">video</span><span class="p">::</span> <span class="n">_static</span><span class="o">/</span><span class="n">video</span><span class="o">.</span><span class="n">mp4</span>
+    <span class="p">:</span><span class="n">autoplay</span><span class="p">:</span>
+    <span class="p">:</span><span class="n">loop</span><span class="p">:</span>
+    <span class="p">:</span><span class="n">nocontrols</span><span class="p">:</span>
+    <span class="p">:</span><span class="n">height</span><span class="p">:</span> <span class="mi">700</span>
+    <span class="p">:</span><span class="n">width</span><span class="p">:</span> <span class="mi">700</span>
+    <span class="p">:</span><span class="n">muted</span><span class="p">:</span>
+</pre></div>
+</div>
+<p>Importante ressaltar que para que o vídeo funcione na documentação, é preciso instalar e colocar a extensão de arquivos de vídeo no arquivo de <strong>conf.py</strong>, em <a class="reference internal" href="modo%20de%20utiliza%C3%A7%C3%A3o.html#modo-de-utilizacao"><span class="std std-ref">Guia de Instalação</span></a> é explicado com mais detalhes o processo de instalação da extensão de vídeo.</p>
+</section>
+<section id="tabelas">
+<h1>Tabelas<a class="headerlink" href="#tabelas" title="Permalink to this heading"></a></h1>
+<p>O Sphinx também permite a criação de tabelas. Existem vários processos e tipos de tabelas, para encontrar um conteúdo com mais detalhes sobre, veja em <a class="reference external" href="https://sphinx-themes.org/sample-sites/sphinx-rtd-theme/kitchen-sink/tables/">https://sphinx-themes.org/sample-sites/sphinx-rtd-theme/kitchen-sink/tables/</a></p>
+<p>Essa documentação vai expor o processo de criação de tabelas mais simples, porém existem os mais diversos tipos.</p>
+<p>A tabela a seguir, é uma tabela simples sem cabeçalho:</p>
+<table class="docutils align-default">
+<tbody>
+<tr class="row-odd"><td><p>Exemplo</p></td>
+<td><p>Exemplo</p></td>
+<td><p>Exemplo</p></td>
+</tr>
+<tr class="row-even"><td><p>Exemplo</p></td>
+<td><p>Exemplo</p></td>
+<td><p>Exemplo</p></td>
+</tr>
+<tr class="row-odd"><td><p>Exemplo</p></td>
+<td><p>Exemplo</p></td>
+<td><p>Exemplo</p></td>
+</tr>
+<tr class="row-even"><td><p>Exemplo</p></td>
+<td><p>Exemplo</p></td>
+<td><p>Exemplo</p></td>
+</tr>
+<tr class="row-odd"><td><p>Exemplo</p></td>
+<td><p>Exemplo</p></td>
+<td><p>Exemplo</p></td>
+</tr>
+</tbody>
+</table>
+<p>O separador de colunas é o <strong>=</strong>, então, por exemplo a tabela:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">======================</span> <span class="o">======================</span> <span class="o">======================</span>
+ <span class="n">Exemplo</span>                 <span class="n">Exemplo</span>                 <span class="n">Exemplo</span>
+
+ <span class="n">Exemplo</span>                 <span class="n">Exemplo</span>                 <span class="n">Exemplo</span>
+
+ <span class="n">Exemplo</span>                 <span class="n">Exemplo</span>                 <span class="n">Exemplo</span>
+
+ <span class="n">Exemplo</span>                 <span class="n">Exemplo</span>                 <span class="n">Exemplo</span>
+
+<span class="o">======================</span> <span class="o">======================</span> <span class="o">======================</span>
+</pre></div>
+</div>
+<p>possui 3 colunas.</p>
+<p>O número de linhas vai depender do conteúdo que será inserido na tabela, ou seja, se eu colocar 4 linhas de texto entre os sinais de igual, minha tabela terá 4 linhas, como a do exemplo acima.</p>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="entendendo%20a%20estrutura.html" class="btn btn-neutral float-left" title="Entendendo a Estrutura" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="como%20documentar%20c%C3%B3digo.html" class="btn btn-neutral float-right" title="Formas de Documentar Código" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2023, Juliana Melo.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

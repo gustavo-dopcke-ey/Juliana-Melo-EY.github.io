@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="yes" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Entendendo a Estrutura &mdash; Sphinx 1 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/sphinx_highlight.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Como Documentar Arquivos de Texto?" href="como%20documentar%20aquivos%20de%20texto.html" />
+    <link rel="prev" title="Guia de Instalação" href="modo%20de%20utiliza%C3%A7%C3%A3o.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            Sphinx
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Afinal, o que é o Sphinx?:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="afinal%20o%20que%20%C3%A9%20o%20sphinx.html">Afinal, o que é Sphinx?</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Como utilizar o Sphinx?:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="modo%20de%20utiliza%C3%A7%C3%A3o.html">Guia de Instalação</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Entendendo a Estrutura</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#paginas-links-e-referencias">Páginas, Links e Referências</a></li>
+<li class="toctree-l1"><a class="reference internal" href="como%20documentar%20aquivos%20de%20texto.html">Como Documentar Arquivos de Texto?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="como%20documentar%20aquivos%20de%20texto.html#imagens-e-videos">Imagens e Vídeos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="como%20documentar%20aquivos%20de%20texto.html#tabelas">Tabelas</a></li>
+<li class="toctree-l1"><a class="reference internal" href="como%20documentar%20c%C3%B3digo.html">Formas de Documentar Código</a></li>
+<li class="toctree-l1"><a class="reference internal" href="como%20documentar%20c%C3%B3digo.html#code-block">Code Block</a></li>
+<li class="toctree-l1"><a class="reference internal" href="como%20documentar%20c%C3%B3digo.html#geracao-automatica">Geração Automática</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Criando e disponibilizando a Documentação:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="como%20criar%20e%20disponibilizar%20o%20html.html">Como Criar e Disponibilizar o html</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Sphinx</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Entendendo a Estrutura</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/entendendo a estrutura.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="entendendo-a-estrutura">
+<h1>Entendendo a Estrutura<a class="headerlink" href="#entendendo-a-estrutura" title="Permalink to this heading"></a></h1>
+<p id="id1">O processo de instalação foi detalhado em <a class="reference internal" href="modo%20de%20utiliza%C3%A7%C3%A3o.html#modo-de-utilizacao"><span class="std std-ref">Guia de Instalação</span></a>. Após finalizado todo o processo exposto, o Sphinx já pode ser utilizado.</p>
+<section id="estrutura-sphinx">
+<h2>Estrutura Sphinx<a class="headerlink" href="#estrutura-sphinx" title="Permalink to this heading"></a></h2>
+<p>No diretório criado para rodar o Sphinx, após o quickstart, encontaremos uma estrutura com 2 pastas, <strong>build</strong> e <strong>source</strong>, em <strong>build</strong> ficam os htmls criados após a compilação do código que gera a documentação, agora em <strong>source</strong> temos os arquivos default,  nela temos o arquivo chamado <strong>conf.py</strong>, nele, temos as informações gerais  da documentação, como o nome, autor e etc. Ainda em conf.py também é possível alterar o template que será utilizado e adicionar extensões.</p>
+</section>
+<section id="alterar-template-da-documentacao">
+<h2>Alterar Template da Documentação<a class="headerlink" href="#alterar-template-da-documentacao" title="Permalink to this heading"></a></h2>
+<p>Como abordado em <a class="reference internal" href="afinal%20o%20que%20%C3%A9%20o%20sphinx.html#afinal-o-que-e-o-sphinx"><span class="std std-ref">Afinal, o que é Sphinx?</span></a>, o Sphinx possui inúmeros templates disponíveis, por default ele vem com o template Alabama, mas é possível escolher outros templates em <a class="reference external" href="https://sphinx-themes.org/#themes">https://sphinx-themes.org/#themes</a> e mudar no conf.py em <em>html theme</em>.</p>
+</section>
+<section id="extensoes">
+<h2>Extensões<a class="headerlink" href="#extensoes" title="Permalink to this heading"></a></h2>
+<p>Podemos também adicicionar extensões. Para inserir vídeos e gerar documentação automática de códicos na documentação, precisamos em <em>extensions</em> colocar as extensões:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">[</span><span class="c1">#[...]&quot;sphinxcontrib.video&quot;, &#39;sphinx.ext.autodoc&#39;]</span>
+</pre></div>
+</div>
+</section>
+<section id="autodocumentacao-sys-path">
+<h2>Autodocumentação sys.path<a class="headerlink" href="#autodocumentacao-sys-path" title="Permalink to this heading"></a></h2>
+<p>O Sphinx pode acusar alguns erros em relação ao autodoc, que é a documetação automática de códigos do Sphinx. Para evitar que isso aconteça, coloque no início do <strong>conf.py</strong> o seguinte código:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="linenos">1</span><span class="kn">import</span> <span class="nn">sys</span>
+<span class="linenos">2</span><span class="kn">import</span> <span class="nn">os</span>
+<span class="linenos">3</span>
+<span class="linenos">4</span><span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">abspath</span><span class="p">(</span><span class="s1">&#39;..&#39;</span><span class="p">))</span>
+</pre></div>
+</div>
+</section>
+<section id="pagina-inicial-da-documentacao">
+<h2>Página Inicial da Documentação<a class="headerlink" href="#pagina-inicial-da-documentacao" title="Permalink to this heading"></a></h2>
+<p>Depois da alteração do <strong>conf.py</strong> a documentação já pode ser iniciada.</p>
+<p>O Sphinx permite a documentação via arquivos rst e direto de códigos. Para criar páginas, inserir textos, imagens, vídeos, tabelas, links e etc, criamos arquivos .rst e inserimos esse conteúdo usando <strong>reStructuredText</strong>.</p>
+<p>Em <a class="reference external" href="https://docutils.sourceforge.io/docs/ref/rst/directives.html#image">https://docutils.sourceforge.io/docs/ref/rst/directives.html#image</a> conseguimos achar como funciona a estrutura do <strong>reStructuredText</strong>.</p>
+</section>
+<section id="index">
+<h2>Index<a class="headerlink" href="#index" title="Permalink to this heading"></a></h2>
+<p>O arquivo <strong>index.rst</strong> é o arquivo responsável pela página inicial da sua documentação, é nele que serão inseridos os conteúdos que aparecerão na primeira página da documentação. Importante ressaltar que o conteúdo nessa página e nas demais, precisa estar estruturado seguindo o <strong>reStructuredText</strong>.</p>
+</section>
+<section id="page-source">
+<h2>Page Source<a class="headerlink" href="#page-source" title="Permalink to this heading"></a></h2>
+<p>Em <a class="reference external" href="https://sphinx-themes.org/sample-sites/sphinx-rtd-theme/">https://sphinx-themes.org/sample-sites/sphinx-rtd-theme/</a> e nos demais templates disponíveis temos, além da sintaxe, o Código fonte utilizado para gerar as páginas, clicando em <strong>view page source</strong> é possível observar com mais facilidade todo o processo de construção e comandos necessários.</p>
+</section>
+</section>
+<section id="paginas-links-e-referencias">
+<h1>Páginas, Links e Referências<a class="headerlink" href="#paginas-links-e-referencias" title="Permalink to this heading"></a></h1>
+<p>Para inserir <strong>páginas</strong> e referência-las em sua documentação, crie um arquivo .rst no mesmo diretório do index.rst. Depois de inserir todas as informações no arquivo criado, referencie ele para que a página seja criada.</p>
+<section id="criando-paginas-via-toctree">
+<h2>Criando Páginas via toctree<a class="headerlink" href="#criando-paginas-via-toctree" title="Permalink to this heading"></a></h2>
+<p>Depois de criar as páginas precisamos referencia-las, para isso:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>.. toctree::
+    :caption:Título(para que as páginas fiquem agrupadas em ‘pastas’):
+    :titlesonly:
+
+nome do arquivo.rst criado
+</pre></div>
+</div>
+<p>Agora, para referenciar páginas já criadas:</p>
+<ol class="arabic">
+<li><p>Crie a referência na página(arquivo.rst), colocando o seguinte comando logo depois do título da página:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">..</span> <span class="n">_pagina</span><span class="p">:</span>
+</pre></div>
+</div>
+</li>
+<li><p>Use ref para referenciar a página:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>:ref:`Página &lt;pagina&gt;`
+</pre></div>
+</div>
+</li>
+</ol>
+</section>
+<section id="links">
+<h2>Links<a class="headerlink" href="#links" title="Permalink to this heading"></a></h2>
+<p>Para inserir links na documentação basta pegar o https e colar como se fosse um texto no .rst.</p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="modo%20de%20utiliza%C3%A7%C3%A3o.html" class="btn btn-neutral float-left" title="Guia de Instalação" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="como%20documentar%20aquivos%20de%20texto.html" class="btn btn-neutral float-right" title="Como Documentar Arquivos de Texto?" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2023, Juliana Melo.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

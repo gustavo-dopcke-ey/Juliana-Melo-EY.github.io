@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="yes" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Formas de Documentar Código &mdash; Sphinx 1 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/sphinx_highlight.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Como Criar e Disponibilizar o html" href="como%20criar%20e%20disponibilizar%20o%20html.html" />
+    <link rel="prev" title="Como Documentar Arquivos de Texto?" href="como%20documentar%20aquivos%20de%20texto.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            Sphinx
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Afinal, o que é o Sphinx?:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="afinal%20o%20que%20%C3%A9%20o%20sphinx.html">Afinal, o que é Sphinx?</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Como utilizar o Sphinx?:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="modo%20de%20utiliza%C3%A7%C3%A3o.html">Guia de Instalação</a></li>
+<li class="toctree-l1"><a class="reference internal" href="entendendo%20a%20estrutura.html">Entendendo a Estrutura</a></li>
+<li class="toctree-l1"><a class="reference internal" href="entendendo%20a%20estrutura.html#paginas-links-e-referencias">Páginas, Links e Referências</a></li>
+<li class="toctree-l1"><a class="reference internal" href="como%20documentar%20aquivos%20de%20texto.html">Como Documentar Arquivos de Texto?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="como%20documentar%20aquivos%20de%20texto.html#imagens-e-videos">Imagens e Vídeos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="como%20documentar%20aquivos%20de%20texto.html#tabelas">Tabelas</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Formas de Documentar Código</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#code-block">Code Block</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#geracao-automatica">Geração Automática</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Criando o html:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="como%20criar%20e%20disponibilizar%20o%20html.html">Como Criar e Disponibilizar o html</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Sphinx</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Formas de Documentar Código</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/como documentar código.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="formas-de-documentar-codigo">
+<h1>Formas de Documentar Código<a class="headerlink" href="#formas-de-documentar-codigo" title="Permalink to this heading"></a></h1>
+</section>
+<section id="code-block">
+<h1>Code Block<a class="headerlink" href="#code-block" title="Permalink to this heading"></a></h1>
+<p>Como já mencionado anteriormente, existem duas formas de documentar código, uma delas é usando code blocks.</p>
+<p>Code block consiste num bloco de código em que podemos escolher a linguagem e a documentação mostrará o código formatado de acordo com as especificidades da linguagem.</p>
+<p>Para criar code blocks usaremos os seguintes comandos:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">..</span> <span class="n">code</span><span class="o">-</span><span class="n">block</span><span class="p">::</span> <span class="n">linguagem</span> <span class="n">do</span> <span class="n">código</span>
+    <span class="p">:</span><span class="n">linenos</span><span class="p">:</span>
+</pre></div>
+</div>
+<p>Depois é só colocar o código seguindo a identação de <strong>:linenos:</strong></p>
+<p>O exemplo abaixo usa code block para documentar um código python.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="linenos"> 1</span><span class="kn">from</span> <span class="nn">typing</span> <span class="kn">import</span> <span class="n">Iterator</span>
+<span class="linenos"> 2</span>
+<span class="linenos"> 3</span><span class="c1"># This is an example</span>
+<span class="linenos"> 4</span><span class="k">class</span> <span class="nc">Math</span><span class="p">:</span>
+<span class="linenos"> 5</span>    <span class="nd">@staticmethod</span>
+<span class="linenos"> 6</span>    <span class="k">def</span> <span class="nf">fib</span><span class="p">(</span><span class="n">n</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Iterator</span><span class="p">[</span><span class="nb">int</span><span class="p">]:</span>
+<span class="linenos"> 7</span><span class="w">        </span><span class="sd">&quot;&quot;&quot;Fibonacci series up to n&quot;&quot;&quot;</span>
+<span class="linenos"> 8</span>        <span class="n">a</span><span class="p">,</span> <span class="n">b</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span>
+<span class="linenos"> 9</span>        <span class="k">while</span> <span class="n">a</span> <span class="o">&lt;</span> <span class="n">n</span><span class="p">:</span>
+<span class="linenos">10</span>            <span class="k">yield</span> <span class="n">a</span>
+<span class="linenos">11</span>            <span class="n">a</span><span class="p">,</span> <span class="n">b</span> <span class="o">=</span> <span class="n">b</span><span class="p">,</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span>
+<span class="linenos">12</span>
+<span class="linenos">13</span>
+<span class="linenos">14</span><span class="n">result</span> <span class="o">=</span> <span class="nb">sum</span><span class="p">(</span><span class="n">Math</span><span class="o">.</span><span class="n">fib</span><span class="p">(</span><span class="mi">42</span><span class="p">))</span>
+<span class="linenos">15</span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;The answer is </span><span class="si">{}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">result</span><span class="p">))</span>
+</pre></div>
+</div>
+<section id="code-block-com-legenda">
+<h2>Code Block com legenda<a class="headerlink" href="#code-block-com-legenda" title="Permalink to this heading"></a></h2>
+<p>O processo é basicamente o mesmo que o detalhado acima, a única diferença é que inserimos o parametro <code class="docutils literal notranslate"><span class="pre">:caption::</span></code>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">..</span> <span class="n">code</span><span class="o">-</span><span class="n">block</span><span class="p">::</span> <span class="n">json</span>
+    <span class="p">:</span><span class="n">caption</span><span class="p">:</span> <span class="n">Code</span> <span class="n">Blocks</span> <span class="n">com</span> <span class="n">legenda</span><span class="o">.</span>
+</pre></div>
+</div>
+<div class="literal-block-wrapper docutils container" id="id1">
+<div class="code-block-caption"><span class="caption-text">Code Blocks com legenda.</span><a class="headerlink" href="#id1" title="Permalink to this code"></a></div>
+<div class="highlight-json notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+<span class="w">  </span><span class="nt">&quot;session_name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;shorthands&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;windows&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">    </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;panes&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">        </span><span class="p">{</span>
+<span class="w">          </span><span class="nt">&quot;shell_command&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;echo &#39;This is an intentionally very long line because I want to make sure that we are handling scrollable code blocks correctly.&#39;&quot;</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">      </span><span class="p">],</span>
+<span class="w">      </span><span class="nt">&quot;window_name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;long form&quot;</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="w">  </span><span class="p">]</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</div>
+</section>
+<section id="linhas-destacadas">
+<h2>Linhas Destacadas<a class="headerlink" href="#linhas-destacadas" title="Permalink to this heading"></a></h2>
+<p>Para ter um code block com linhas destacadas, é necessário usar o seguinte parâmetro <code class="docutils literal notranslate"><span class="pre">:emphasize-lines:</span> <span class="pre">(número</span> <span class="pre">das</span> <span class="pre">linhas</span> <span class="pre">a</span> <span class="pre">serem</span> <span class="pre">destacadas)</span></code>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">..</span> <span class="n">code</span><span class="o">-</span><span class="n">block</span><span class="p">::</span> <span class="n">python</span>
+    <span class="p">:</span><span class="n">linenos</span><span class="p">:</span>
+    <span class="p">:</span><span class="n">emphasize</span><span class="o">-</span><span class="n">lines</span><span class="p">:</span> <span class="mi">3</span><span class="p">,</span><span class="mi">5</span>
+</pre></div>
+</div>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="linenos">1</span><span class="k">def</span> <span class="nf">some_function</span><span class="p">():</span>
+<span class="linenos">2</span>    <span class="n">interesting</span> <span class="o">=</span> <span class="kc">False</span>
+<span class="hll"><span class="linenos">3</span>    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;This line is highlighted.&quot;</span><span class="p">)</span>
+</span><span class="linenos">4</span>    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;This one is not...&quot;</span><span class="p">)</span>
+<span class="hll"><span class="linenos">5</span>    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;...but this one is.&quot;</span><span class="p">)</span>
+</span><span class="linenos">6</span>    <span class="nb">print</span><span class="p">(</span>
+<span class="linenos">7</span>        <span class="s2">&quot;This is an intentionally very long line because I want to make sure that we are handling scrollable code blocks correctly.&quot;</span>
+<span class="linenos">8</span>    <span class="p">)</span>
+</pre></div>
+</div>
+<p>A segunda forma de documentar códicos é através da geração automática, logo, com o Sphinx é possível documentar funções, classes e métodos do seu código uma única vez e gerar uma documentação completa a partir disso.</p>
+</section>
+</section>
+<section id="geracao-automatica">
+<h1>Geração Automática<a class="headerlink" href="#geracao-automatica" title="Permalink to this heading"></a></h1>
+<p>Antes de mais nada, é importante verificar se a extensão <em>sphinx.ext.autodoc</em> foi colocada no arquivo <strong>conf.py</strong>. Uma vez que o arquivo de configuração possui a extensão, a geração automática já pode ser feita.</p>
+<p>O código que será documentado precisa seguir o seguinte padrão de comentário:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="linenos"> 1</span><span class="k">def</span> <span class="nf">calculate_sum</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
+<span class="linenos"> 2</span><span class="sd">&quot;&quot;&quot;</span>
+<span class="linenos"> 3</span><span class="sd">This function calculates the sum of two numbers.</span>
+<span class="linenos"> 4</span>
+<span class="linenos"> 5</span><span class="sd">:param a: The first number.</span>
+<span class="linenos"> 6</span><span class="sd">:type a: int</span>
+<span class="linenos"> 7</span><span class="sd">:param b: The second number.</span>
+<span class="linenos"> 8</span><span class="sd">:type b: int</span>
+<span class="linenos"> 9</span><span class="sd">:return: The sum of the two numbers.</span>
+<span class="linenos">10</span><span class="sd">:rtype: int</span>
+<span class="linenos">11</span><span class="sd">:example:</span>
+<span class="linenos">12</span>
+<span class="linenos">13</span><span class="sd">&gt;&gt;&gt; calculate_sum(2, 3)</span>
+<span class="linenos">14</span><span class="sd">5</span>
+<span class="linenos">15</span><span class="sd">&gt;&gt;&gt; calculate_sum(0, 0)</span>
+<span class="linenos">16</span><span class="sd">0</span>
+<span class="linenos">17</span><span class="sd">&gt;&gt;&gt; calculate_sum(-1, 1)</span>
+<span class="linenos">18</span><span class="sd">0</span>
+<span class="linenos">19</span><span class="sd">&quot;&quot;&quot;</span>
+<span class="linenos">20</span><span class="k">return</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span>
+</pre></div>
+</div>
+<p>Na geração automática é possível documentar funções, classes e módulos.</p>
+<p>O parâmetro <strong>automodule</strong> é usado para importar um módulo do seu código e documentar todas as funções, classes e métodos dentro dele. Para usá-la, basta adicionar a seguinte linha à sua documentação RST:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">..</span> <span class="n">automodule</span><span class="p">::</span> <span class="n">module_name</span>
+</pre></div>
+</div>
+<p>O parâmetro <strong>autoclass</strong> é usado para documentar uma classe específica. Para usá-la, basta adicionar a seguinte linha à sua documentação RST:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">..</span> <span class="n">autoclass</span><span class="p">::</span> <span class="n">class_name</span>
+</pre></div>
+</div>
+<p>O parâmetro <strong>autofunction</strong> é usado para documentar uma função específica. Para usá-la, basta adicionar a seguinte linha à sua documentação RST:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">..</span> <span class="n">autofunction</span><span class="p">::</span> <span class="n">function_name</span>
+</pre></div>
+</div>
+<p>O arquivo.py que será documentado precisa estar fora do  diretório <strong>Sphinx</strong>, por isso é aconselhada a criação de um novo diretório. Nesse diretório ficará a pasta <strong>Sphinx</strong> com todos os arquivos de sua documentação e os códigos que serão lidos através do autodoc</p>
+<p>No exemplo abaixo vemos a documentação do módulo <strong>my_module</strong>:</p>
+<span class="target" id="module-my_module"></span><section id="exemplo-auto-documentacao">
+<h2>Exemplo Auto-Documentação<a class="headerlink" href="#exemplo-auto-documentacao" title="Permalink to this heading"></a></h2>
+<p>This module contains a set of utility functions and classes.</p>
+</section>
+<dl class="py class">
+<dt class="sig sig-object py" id="my_module.MyClass">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">my_module.</span></span><span class="sig-name descname"><span class="pre">MyClass</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">age</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#my_module.MyClass" title="Permalink to this definition"></a></dt>
+<dd><p>A simple class that stores a name and age.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>name</strong> (<em>str</em>) -- The name of the person.</p></li>
+<li><p><strong>age</strong> (<em>int</em>) -- The age of the person.</p></li>
+</ul>
+</dd>
+</dl>
+<dl class="py method">
+<dt class="sig sig-object py" id="my_module.MyClass.say_hello">
+<span class="sig-name descname"><span class="pre">say_hello</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#my_module.MyClass.say_hello" title="Permalink to this definition"></a></dt>
+<dd><p>This method prints a greeting message.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="my_module.calculate_sum">
+<span class="sig-prename descclassname"><span class="pre">my_module.</span></span><span class="sig-name descname"><span class="pre">calculate_sum</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">a</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">b</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#my_module.calculate_sum" title="Permalink to this definition"></a></dt>
+<dd><p>This function calculates the sum of two numbers.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>a</strong> (<em>int</em>) -- The first number.</p></li>
+<li><p><strong>b</strong> (<em>int</em>) -- The second number.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>The sum of the two numbers.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>int</p>
+</dd>
+<dt class="field-even">Example<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+</dl>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">calculate_sum</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span>
+<span class="go">5</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">calculate_sum</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
+<span class="go">0</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">calculate_sum</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+<span class="go">0</span>
+</pre></div>
+</div>
+</dd></dl>
+
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="como%20documentar%20aquivos%20de%20texto.html" class="btn btn-neutral float-left" title="Como Documentar Arquivos de Texto?" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="como%20criar%20e%20disponibilizar%20o%20html.html" class="btn btn-neutral float-right" title="Como Criar e Disponibilizar o html" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2023, Juliana Melo.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
