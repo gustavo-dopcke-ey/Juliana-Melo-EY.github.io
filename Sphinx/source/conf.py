@@ -20,7 +20,6 @@ release = '1'
 
 
 extensions = [
-    'sphinxcontrib.video',
      'sphinx.ext.autodoc',
 ]
 
