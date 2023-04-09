@@ -30,4 +30,4 @@ Outra característica importante da biblioteca Sphinx é a sua capacidade de sup
 
 Em resumo, a biblioteca Sphinx é uma ferramenta poderosa e altamente configurável de documentação técnica de código aberto, que permite gerar documentação precisa e intuitiva. A utilização da Sphinx ajuda a melhorar a legibilidade e a manutenção do código, além de facilitar a adoção e a contribuição ao projeto.
 
-Para mais detalhes acesse https://www.sphinx-doc.org/en/master/index.html
+Para mais detalhes acesse https://www.sphinx-doc.org/en/master/index.html.
