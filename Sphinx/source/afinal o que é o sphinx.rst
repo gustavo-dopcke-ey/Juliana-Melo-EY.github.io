@@ -28,7 +28,10 @@ A Sphinx possui vários templates disponíveis para serem utilizados, como os do
     :height: 700
     :width: 700
     :muted:
-
+.. image:: _static/templates_sphinx.gif
+   :height: 700
+   :width: 700
+   :align: center
 
 Para acessa-los, basta clicar no link a seguir: https://sphinx-themes.org/#themes.
 
