@@ -47,6 +47,4 @@ Para hospedar sua documentação via Git Pages siga o processo abaixo:
         git push -u origin main
 
 
-    Depois desse processo, sua documentação já está disponível como uma página web. Para acessa-lo,abra um navegador procure a seguinte página::
-
-        https://username.github.io
+    Ao final desse processo sua documentação estará disponível no Git Pages, porém, existe a necessidade de mexer no html para deixar com o mesmo template do sphinx, então, o Read the Docs pode ser uma boa opção para hostear a documentação. Então, depois de subir o repositório no GitHub, clique em https://readthedocs.org/ e faça login com o GitHub. Automaticamente o GitHub irá reconhecer o repositório. Para fazer o build da documentação, clique no repositório e depois em build version. Depois de alguns minutos sua documentação estará disponível.
