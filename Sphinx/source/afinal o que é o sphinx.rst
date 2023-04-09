@@ -19,21 +19,7 @@ Na imagem a seguir é possível observar a documentação da biblioteca Pandas, 
 
 A Sphinx é amplamente utilizada por sua facilidade de uso, escalabilidade e opção de recursos avançados de documentação. A biblioteca suporta diversos formatos de saída, incluindo HTML, PDF, EPUB e LaTeX, tornando a documentação gerada acessível em diferentes dispositivos e plataformas.
 
-A Sphinx possui vários templates disponíveis para serem utilizados, como os do video abaixo.
-
-.. video:: _static/templates_sphinx.mp4
-    :autoplay:
-    :loop:
-    :nocontrols:
-    :height: 700
-    :width: 700
-    :muted:
-.. image:: _static/templates_sphinx.gif
-   :height: 700
-   :width: 700
-   :align: center
-
-Para acessa-los, basta clicar no link a seguir: https://sphinx-themes.org/#themes.
+A Sphinx possui vários templates disponíveis para serem utilizados. Para acessa-los, basta clicar no link a seguir: https://sphinx-themes.org/#themes.
 
 Para utilizar os templates basta escolher um e então, colocar o código correspondente no arquivo de configuração, etapa que abordamos em :ref:`Entendendo Estrutura do Repositório <entendendo a estrutura>`
 
