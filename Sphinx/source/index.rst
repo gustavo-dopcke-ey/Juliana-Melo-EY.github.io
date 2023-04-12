@@ -7,17 +7,17 @@
 Sphinx - Documentação incode
 ================================
 
-Essa documentação cataloga e explica todas as ações e passos necessários para começar a utilizar a biblioteca Sphinx como recurso de documentação incode. Nela é possível encontrar desde o guia de instalação inicial à formas de formatação de texto e código.
+Essa documentação cataloga e explica as ações necessárias para utilizar a biblioteca Sphinx como recurso de documentação incode. Nela é possível encontrar desde o guia de instalação inicial à formas de formatação de texto e código.
 
 
 .. toctree::
-   :caption: Afinal, o que é o Sphinx?:
+   :caption: O que é o Sphinx:
    :titlesonly:
 
    afinal o que é o sphinx
 
 .. toctree::
-   :caption: Como utilizar o Sphinx?:
+   :caption: Como utilizar o Sphinx:
    :titlesonly:
 
    modo de utilização
