@@ -1,11 +1,11 @@
 =======================
-Afinal, o que é Sphinx?
+O que é Sphinx?
 =======================
 
 .. _afinal o que é o sphinx:
 
 
-Sphinx é uma biblioteca de código aberto que viabiliza a criação de documentações técnicas, de forma precisa e elegante, transformando a documentação de projetos mais simples e intuitiva, tanto para o criador quanto para o usuário. Ela é escrita em Python e totalmente configurável, permitindo ao usuário a personalização da aparência e do comportamento da documentação gerada.
+Sphinx é uma biblioteca de código aberto que viabiliza a criação de documentações técnicas de forma precisa e elegante, transformando a documentação de projetos mais simples e intuitiva, tanto para o criador quanto para o usuário. Ela é escrita em Python e totalmente configurável, permitindo ao usuário a personalização da aparência e do comportamento da documentação gerada.
 
 Na imagem a seguir é possível observar a documentação da biblioteca Pandas, feita com Sphinx.
 
@@ -21,7 +21,7 @@ A Sphinx é amplamente utilizada por sua facilidade de uso, escalabilidade e op�
 
 A Sphinx possui vários templates disponíveis para serem utilizados. Para acessa-los, basta clicar no link a seguir: https://sphinx-themes.org/#themes.
 
-Para utilizar os templates basta escolher um e então, colocar o código correspondente no arquivo de configuração, etapa que abordamos em :ref:`Entendendo Estrutura do Repositório <entendendo a estrutura>`
+Para utilizar os templates basta colocar o código correspondente no arquivo de configuração, etapa que abordamos em :ref:`Entendendo Estrutura do Repositório <entendendo a estrutura>`
 
 
 Além de todas as características citadas acima, a biblioteca é projetada para gerar documentação de forma automatizada, a partir de arquivos de marcação, como o reStructuredText ou o Markdown. Esses arquivos contêm as informações sobre o projeto, como as descrições dos módulos, funções e classes, documentação de parâmetros, exemplos de código, entre outros. A partir desses arquivos, a Sphinx gera automaticamente uma estrutura de documentos, incluindo índices, referências cruzadas, tabelas de conteúdo, entre outros elementos.
