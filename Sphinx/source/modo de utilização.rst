@@ -4,14 +4,14 @@ Guia de Instalação
 
 .. _modo de utilização:
 
-Em :ref:`Afinal, o que é Sphinx? <afinal o que é o sphinx>` temos um overview sobre a biblioteca e suas funcionalidades, agora, para começar a utilizar o Sphinx como recurso de documentação é necessário fazer sua instalação. Para isso, siga as etapas abaixo:
+Em :ref:`Afinal, o que é Sphinx? <afinal o que é o sphinx>` temos um overview sobre a biblioteca e suas funcionalidades. Para utilizar a Sphinx como recurso de documentação é necessário fazer sua instalação. Para isso, siga as etapas abaixo:
 
 
 
 Instalação
 =============
 
-O Sphinx possui um processo de instalação simples e rápido, entretanto, para diminuir a chance de erros e problemas com versões de outras bibliotecas, é aconselhada a criação de um ambiente virtual, para isso, antes de instalar o Sphinx, siga seguintes etapas:
+O Sphinx possui um processo de instalação simples e rápido, entretanto, para diminuir a chance de erros e problemas com versões de outras bibliotecas, é aconselhada a criação de um ambiente virtual, para isso, antes de instalar a Sphinx, siga seguintes etapas:
 
 Criação do ambiente virtual
 ===========================
@@ -49,12 +49,12 @@ Com o diretório criado, mude o caminho::
 
    cd Sphinx
 
-Depois desses passos seu ambiente virtual está pronto para rodar o Sphinx, para rodar o quickstart use::
+Depois desses passos seu ambiente virtual está pronto para rodar a Sphinx, para rodar o quickstart use::
 
    python -m sphinx.cmd.quickstart
 
 Após executar esse comando, o Sphinx fará algumas perguntas como o nome do projeto, idioma e etc. Após preencher todas as perguntas, a instalação está concluída e o Sphinx está pronto para ser utilizado.
-Em :ref:`Entendendo a Estrutura <entendendo a estrutura>` temos uma explicação detalhada de como o Sphinx é estruturado e todas as adaptações que precisam ser feitas antes de gerar a documentação.
+Em :ref:`Entendendo a Estrutura <entendendo a estrutura>` temos uma explicação detalhada de como a Sphinx é estruturada e todas as adaptações que precisam ser feitas antes de gerar a documentação.
 
 
 
