@@ -3,12 +3,12 @@ Como Documentar Arquivos de Texto?
 ==================================
 .. _como_documentar_texto:
 
-Nessa página apresentamos os principais comandos necessários para documentar texto no Sphinx.
+Nessa página apresentamos os principais comandos necessários para documentar texto na Sphinx.
 
 Edição de texto
 ===============
 
-O arquivo.rst funciona como se fosse um bloco de notas, logo, para inserir texto basta colar ou escreve-lo no arquivo. Porém, além de inserir textos, também é possível formata-lo.
+O arquivo.rst funciona como se fosse um bloco de notas, logo, para inserir texto basta colar ou escreve-lo no arquivo. Porém, além de inserir textos, também é possível formatá-lo.
 
 A seguir, temos uma tabela com os principais comandos para formatação de texto, lembrando que uma explicação mais detalhada pode ser encontrada em https://docutils.sourceforge.io/docs/ref/rst/directives.html#image
 
@@ -55,7 +55,7 @@ Formato                              reStructuredText
 Cálculos Matemáticos
 ====================
 
-Podemos escrever cálculos matemáticos de duas formas no Sphinx, uma usando o comando :literal:`:math:``` e outra usando :literal:`..math::`, segue exemplos:
+Podemos escrever cálculos matemáticos de duas formas na Sphinx, uma usando o comando :literal:`:math:``` e outra usando :literal:`..math::`, segue exemplos:
 
 :math:`X_{0:5} = (X_0, X_1, X_2, X_3, X_4)`
 
@@ -82,7 +82,7 @@ Também é possivel referenciar equações usando  :eq:`referencia` usando ``:eq
 Download de Links e Arquivos
 ============================
 
-No Sphinx também é possível inserir links com arquivos para download, usando ``:download:``
+Na Sphinx também é possível inserir links com arquivos para download, usando ``:download:``
 
 :download:`Link <https://source.unsplash.com/200x200/daily?cute+puppy>`
 
@@ -100,7 +100,7 @@ Para inserir imagens, use::
 
     |
 
-Agora para inserir vídeos, use::
+Para inserir vídeos, use::
 
     .. video:: _static/video.mp4
         :autoplay:
@@ -151,4 +151,4 @@ O separador de colunas é o **=**, então, por exemplo a tabela::
 
 possui 3 colunas.
 
-O número de linhas vai depender do conteúdo que será inserido na tabela, ou seja, se eu colocar 4 linhas de texto entre os sinais de igual, minha tabela terá 4 linhas, como a do exemplo acima.
+O número de linhas vai depender do conteúdo que será inserido na tabela, ou seja, se eu colocar 4 linhas de texto entre os sinais de igual, minha tabela terá 4 linhas, como no exemplo acima.
